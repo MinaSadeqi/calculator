@@ -2,6 +2,9 @@ from PySide2 import QtUiTools, QtWidgets
 global exp
 exp = ""
 
+def test2():
+	print('hello')
+
 def test():
     global exp
     exp += '1'

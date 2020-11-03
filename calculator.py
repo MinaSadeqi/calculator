@@ -106,7 +106,7 @@ def clkClear():
     ui.text.setText(exp)
 
 app = QtWidgets.QApplication([])
-ui = QtUiTools.QUiLoader().load("form 2.ui")
+ui = QtUiTools.QUiLoader().load("main.ui")
 
 ui.button0.clicked.connect(clkbtn0)
 ui.button1.clicked.connect(clkbtn1)
